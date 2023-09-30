@@ -1,0 +1,224 @@
+
+/* Body Starts */
+
+body {
+    background-color: #84baf0;
+}
+/* #d5c7ff
+ rgba(65, 57, 79, 0.75);  */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Profile Card Starts */
+
+.card {
+    width: 450px;
+    height: 650px;
+    background-color: white;
+    border-radius: 20px;
+  
+    box-shadow: 0px 0px 34px 4px rgba(20, 3, 108, 0.75);
+    -webkit-box-shadow: 0px 0px 34px 4px rgba(20, 3, 108, 0.75);
+    -moz-box-shadow: 0px 0px 34px 4px rgba(20, 3, 108, 0.75);
+
+}
+
+/* Span Text Starts */
+
+  #mode {
+    margin: 10px 10px 0px 10px;
+}
+
+#mode_text {
+    font-size: 12px;
+    position: relative;
+    left: -45px;
+    top: -3px;
+    font-family: "Varela Round", sans-serif;
+}
+
+/* Dark mode font awesome icon */
+
+#mode #dark_mode_icon {
+    font-size: 25px;
+    border: 2px solid #25245c;
+    padding: 8px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+
+/* Light mode font awesome icon */
+
+#mode #light_mode {
+    font-size: 25px;
+    border: 2px solid #f9d101;
+    color: #f9d101;
+    padding: 8px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    visibility: hidden;
+    position: relative;
+    left: -45px;
+    bottom: -2px;
+}
+
+/* Main Content Starts */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Varela Round", sans-serif;
+}
+
+.content img {
+  border-bottom: 8px solid #FFD104;
+    border-right: 8px solid #FFD104;
+}
+
+/* Profile Dp Styling */
+  
+#profile-img {
+    margin-top: 30px;
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+/* Card Name */
+
+#temp {
+    position: relative;
+}
+
+#name {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family: "Varela Round", sans-serif;
+}
+
+/* Profession */
+
+#span {
+    font-family: "Varela Round", sans-serif;
+}
+
+/* Intro Paragraph */
+
+#intro {
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    width: 85%;
+}
+
+/* Personal Gmail Id */
+
+#mail {
+    padding-top: 20px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    background-color: #25245c;
+    color: white;
+    border-radius: 8px;
+    font-family: "Varela Round", sans-serif;
+}
+
+#mail a {
+  text-decoration: underline;
+  color: white;
+
+}
+
+/* Font Awesome Icons */
+
+.icons {
+    padding-top: 35px;
+}
+
+.icons i {
+    font-size: 30px;
+    padding: 0px 20px;
+    color: #27245e;
+    position: relative;
+    transition: 0.5s;
+}
+
+  .icons i:hover {
+    transform: translateY(-10px);
+}
+
+.icons a {
+    position: relative;
+}
+  
+.icons-span {
+    position: absolute;
+    left: 8px;
+    top: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    visibility: hidden;
+}
+
+#github-span {
+    left: 15px;
+}
+
+#whatsapp-span {
+    left: 6px;
+}
+
+/* Media querries */
+
+  @media (max-width: 450px) {
+    .card {
+      width: 400px;
+      height: 600px;
+    }
+    #mode #dark_mode_icon {
+      font-size: 20px;
+    }
+  
+    #profile-img {
+      margin-top: 10px;
+      width: 170px;
+      height: 170px;
+    }
+    .icons i {
+        font-size: 27px;
+        padding: 0px 12px;
+      }
+      #mail {
+        font-size: 14px;
+      }
+    
+      .icons-span {
+        position: absolute;
+        left: 8px;
+        top: 15px;
+        text-decoration: none;
+        font-size: 10px;
+        visibility: hidden;
+      }
+      #instagram-span {
+        left: 3px;
+      }
+      #facebook-span {
+        left: 3px;
+      }
+      #linkedin-span {
+        left: 5px;
+      }
+      #whatsapp-span {
+        left: 3px;
+      }
+    }
+  
+  
